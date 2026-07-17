@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 089b56f8f0b1f41ec9199c45d60b15e3
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 830c97914be2c4110b49574c96014d92
+  - enabled: 1
+    path: Assets/Scenes/RestartScene.unity
+    guid: 65fbe74fec4d9446080596667ed7aad0
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
