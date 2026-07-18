@@ -139,8 +139,7 @@ Located in `Assets/Audio` (ambience and music); sound effects for pickups, enemy
 
 - Low Poly Environment Nature Free:
   `https://assetstore.unity.com/packages/3d/environments/low-poly-environment-nature-free-lowpoly-medieval-fantasy-series-187052`
-- Starter Assets Third Person URP:
-  `https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-urp-196526`
+- Survival Assets: `https://assetstore.unity.com/packages/3d/characters/survivalist-character-181470?srsltid=AfmBOopEiH4UDDSAlyikAkJ0k4zlkJwzg6TLEcIZh6QODBVKFej4M1yB`
 - Imported placeholder weapon models in `Assets/Collectibles`.
 - Imported placeholder enemy / NPC / animal models in `Assets/Enemies`, `Assets/NPC`, and `Assets/Animals`.
 
