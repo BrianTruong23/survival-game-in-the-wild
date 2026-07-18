@@ -27,6 +27,7 @@ Clear the level before the timer hits zero by completing **both** goals:
 - Open / close chest inventory: `Y`.
 - Craft a coin (from 1 proton + 1 electron): `B`.
 - Cycle compass target (Enemy / Proton / Electron / Vehicle): `U`.
+- Toggle enemy behavior between wander and chase: `Q` (current mode is shown as "Status: Wander/Chase" in the lower-left; only enemies chase, NPCs keep wandering).
 - Enter / exit the nearby vehicle: `I`.
 - Talk to a nearby NPC: `N`.
 - Open / close the instructions & progress screen: `E`.
@@ -103,6 +104,7 @@ Beyond the base requirements, this project adds several distinctive features:
 - **Objective-driven win condition** — completing the goal (crafting the required coins and defeating the required enemies) triggers the win state.
 - **Drivable vehicle** — the player can interact with a vehicle, enter it, and **drive it around** the world (`I`), moving faster than sprinting, with its own follow camera.
 - **Combat** — the player can pick up guns and **shoot enemies**.
+- **Toggle** - to help player find enemy quickly, the player can toggle a "Chase Mode" by hitting Q button. In Chase Mode, the enemy will run towards the player character.
 
 ### Advanced Feature (Grad Student Requirement)
 
