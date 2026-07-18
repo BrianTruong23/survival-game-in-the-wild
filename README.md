@@ -10,8 +10,8 @@ The player is dropped into a low-poly forest environment and must gather **proto
 
 Clear the level before the timer hits zero by completing **both** goals:
 
-- Craft **5 coins** (each coin = **2 protons + 2 electrons**).
-- Defeat **5 enemies**.
+- Craft **2 coins** (each coin = **1 proton + 1 electron**).
+- Defeat **2 enemies**.
 
 - **Win:** both goals completed before time runs out -> "LEVEL CLEAR" message, then the restart scene.
 - **Lose:** health reaches zero, **or** the countdown timer reaches zero -> loss message, then the restart scene.
@@ -25,7 +25,7 @@ Clear the level before the timer hits zero by completing **both** goals:
 - Shoot equipped weapon: `Left Click` or `F`.
 - Equip / holster a gun from the chest: `1`-`5`.
 - Open / close chest inventory: `Y`.
-- Craft a coin (from 2 protons + 2 electrons): `B`.
+- Craft a coin (from 1 proton + 1 electron): `B`.
 - Cycle compass target (Enemy / Proton / Electron / Vehicle): `U`.
 - Enter / exit the nearby vehicle: `I`.
 - Talk to a nearby NPC: `N`.
@@ -65,7 +65,7 @@ Survivalist Character Asset with `WASD` movement, mouse look, jump, and sprint, 
 
 **6. Add clear UI feedback.**
 
-- A runtime HUD shows coin progress (`x/5`), enemy progress (`x/5`), current weapon, chest count, health icons, a countdown timer, a compass/nearest-target marker, interaction prompts, crafting/dialogue status messages, a chest inventory panel, and an instructions + live-progress screen (`E`).
+- A runtime HUD shows coin progress (`x/2`), enemy progress (`x/2`), current weapon, chest count, health icons, a countdown timer, a compass/nearest-target marker, interaction prompts, crafting/dialogue status messages, a chest inventory panel, and an instructions + live-progress screen (`E`).
 
 **7. Add at least three challenge systems.**
 
@@ -73,7 +73,7 @@ Survivalist Character Asset with `WASD` movement, mouse look, jump, and sprint, 
 
 **8. Add a clear gameplay goal.**
 
-- Craft 5 coins (2 protons + 2 electrons each) **and** defeat 5 enemies **before the countdown timer runs out** (10 minutes). The goal and live progress are shown on the HUD and the instructions screen.
+- Craft 2 coins (1 proton + 1 electron each) **and** defeat 2 enemies **before the countdown timer runs out** (10 minutes). The goal and live progress are shown on the HUD and the instructions screen.
 
 **9. Add a win condition, lose condition, and completion / restart flow.**
 

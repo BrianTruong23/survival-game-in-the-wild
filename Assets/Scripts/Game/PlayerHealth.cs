@@ -114,6 +114,7 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player Died!");
+        GameManager.LastOutcome = GameManager.Outcome.Lose;
         // Load the Restart Scene (assuming its name is "RestartScene")
         // Alternatively, you can use the build index if you know it
         SceneManager.LoadScene("RestartScene");

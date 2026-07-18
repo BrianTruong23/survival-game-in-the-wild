@@ -16,10 +16,10 @@ public sealed class GameScoreManager : MonoBehaviour
     // place: how many protons/electrons craft a coin, how many coins to win, how
     // many enemies to defeat, and how long a full day/night cycle lasts.
     [Header("Win Condition Tuning")]
-    [SerializeField, Min(1)] private int protonsPerCoin = 2;
-    [SerializeField, Min(1)] private int electronsPerCoin = 2;
-    [SerializeField, Min(1)] private int coinsToWin = 5;
-    [SerializeField, Min(1)] private int enemiesToWin = 5;
+    [SerializeField, Min(1)] private int protonsPerCoin = 1;
+    [SerializeField, Min(1)] private int electronsPerCoin = 1;
+    [SerializeField, Min(1)] private int coinsToWin = 2;
+    [SerializeField, Min(1)] private int enemiesToWin = 2;
     [SerializeField, Min(1f)] private float dayNightCycleSeconds = 200f;
     [SerializeField] private DayNightManager dayNightManager;
 
@@ -379,6 +379,7 @@ public sealed class GameScoreManager : MonoBehaviour
         }
 
         hasWon = true;
+        GameManager.LastOutcome = GameManager.Outcome.Win;
         ShowDialogue($"LEVEL CLEAR! You crafted {coinsToWin} coins and defeated {enemiesToWin} enemies.");
         Invoke(nameof(LoadRestartScene), 4f);
     }
@@ -403,6 +404,7 @@ public sealed class GameScoreManager : MonoBehaviour
     private void TriggerTimeUp()
     {
         hasLost = true;
+        GameManager.LastOutcome = GameManager.Outcome.Lose;
         ShowDialogue("TIME'S UP! You ran out of time before finishing the objective.");
         Invoke(nameof(LoadRestartScene), 3f);
     }

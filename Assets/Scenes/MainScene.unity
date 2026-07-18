@@ -3815,10 +3815,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  protonsPerCoin: 2
-  electronsPerCoin: 2
-  coinsToWin: 5
-  enemiesToWin: 5
+  protonsPerCoin: 1
+  electronsPerCoin: 1
+  coinsToWin: 2
+  enemiesToWin: 2
   dayNightCycleSeconds: 200
   dayNightManager: {fileID: 2200000003}
   timeLimitSeconds: 600
