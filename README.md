@@ -1,4 +1,4 @@
-# 3D Final Project Game Course
+# Survival in the Wild
 
 This repository contains my Unity 3D game. The game is a low-poly nature survival and crafting level where the player explores a forest terrain, gathers proton and electron particles, crafts them into coins, defeats wandering enemies, avoids hazards, and clears the level before a countdown timer runs out.
 
@@ -148,4 +148,4 @@ Located in `Assets/Audio` (ambience and music); sound effects for pickups, enemy
 
 GitHub repository:
 
-`https://github.com/BrianTruong23/3d-final-project-game-course`
+`https://github.com/BrianTruong23/survival-game-in-the-wild`
