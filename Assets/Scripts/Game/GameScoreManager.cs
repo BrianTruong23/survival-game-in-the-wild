@@ -827,6 +827,7 @@ public sealed class GameScoreManager : MonoBehaviour
             "U - Cycle compass target (Enemy / Proton / Electron / Vehicle)\n" +
             "I - Enter/exit the nearby vehicle (drives faster than sprinting)\n" +
             "N - Talk to a nearby NPC\n" +
+            "Q - Toggle enemy mode between Wander and Chase (shown lower-left)\n" +
             "E - Open/close this screen\n\n" +
             "HOW TO WIN\n" +
             $"- Craft {coinsToWin} Coins ({protonsPerCoin} Protons + {electronsPerCoin} Electrons each)\n" +
