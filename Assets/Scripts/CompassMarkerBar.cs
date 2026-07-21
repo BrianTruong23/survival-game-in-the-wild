@@ -170,7 +170,7 @@ public class CompassMarkerBar : MonoBehaviour
 
     private T FindNearest<T>() where T : Component
     {
-        T[] candidates = FindObjectsByType<T>(FindObjectsInactive.Exclude);
+        T[] candidates = FindObjectsByType<T>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
         float bestDistance = float.PositiveInfinity;
         T nearest = null;
 
