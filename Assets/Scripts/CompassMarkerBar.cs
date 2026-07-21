@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class CompassMarkerBar : MonoBehaviour
 {
+
     // What the compass arrow currently points at. Press U to cycle through these.
     private enum TrackTarget
     {
@@ -170,7 +171,12 @@ public class CompassMarkerBar : MonoBehaviour
 
     private T FindNearest<T>() where T : Component
     {
-        T[] candidates = FindObjectsByType<T>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+
+        #if UNITY_6000_0_OR_NEWER
+                T[] candidates = FindObjectsByType<T>(FindObjectsInactive.Exclude);
+        #else
+                T[] candidates = FindObjectsByType<T>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+        #endif
         float bestDistance = float.PositiveInfinity;
         T nearest = null;
 
